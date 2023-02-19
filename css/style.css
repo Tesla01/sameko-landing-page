@@ -1,5 +1,6 @@
 body {
-  font-family: "poppins", sans-serif;
+  font-family: "poppins",
+ sans-serif;
   color: #101010;
   background-color: #ffffff;
 }
@@ -166,9 +167,9 @@ a:focus {
 }
 
 .slider_section .slider_container {
-  background-image: url(../images/slider-bg.jpg);
+  /* background-image: url(../images/slider-bg.jpg); */
   background-size: cover;
-  color: #ffffff;
+  color: #000000;
   padding: 25px 0;
 }
 
@@ -196,7 +197,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ffffff;
+  background-color: #fbac2e;
   color: #000000;
   border: 1.5px solid #ffffff;
   border-radius: 5px;
@@ -205,8 +206,8 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: transparent;
-  color: #ffffff;
+  background-color: #ffd3b5;
+  color: #651919;
 }
 
 .slider_section .carousel-indicators {
